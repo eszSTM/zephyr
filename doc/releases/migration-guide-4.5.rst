@@ -128,6 +128,9 @@ STM32
   Applications must now explicitly configure interrupt priorities using Devicetree
   if they previously relied on the values found in SoC DTSI files. (:github:`106188`)
 
+* STM32MP13 SoC DTSI ethernet: rename label from ``mac:`` and ``mdio:`` to ``mac0:`` and
+  ``mdio0:``. The goal is to distinguish the 2 Ethernet controller available. (:github:`108574`)
+
 Syscon
 ======
 
